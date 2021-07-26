@@ -1,12 +1,12 @@
 FROM python:3.7.6
 
-RUN echo "fems01"
+RUN echo "fem3.0"
 
 WORKDIR /home/
 
-RUN git clone https://github.com/jwtech05/fems_data.git
+RUN git clone https://github.com/jwtech05/FemsData.git
 
-WORKDIR /home/fems01
+WORKDIR /home/FemsData
 
 COPY requirements.txt .
 
